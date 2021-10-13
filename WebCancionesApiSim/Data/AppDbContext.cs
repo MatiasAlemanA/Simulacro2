@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebCancionesApiSim.Models;
 
 namespace WebCancionesApiSim.Data
 {
@@ -13,6 +14,6 @@ namespace WebCancionesApiSim.Data
 
         }
 
-        public DbSet<Cancion> Cancion { get; set; }
+        public DbSet<Cancionn> Cancionn { get; set; }
     }
 }
